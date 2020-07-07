@@ -1,0 +1,24 @@
+***************** Running Your Tests *****************
+The Traditional scripts can be executed in the following way:
+
+1. Open "testng.xml" file
+2. Uncomment the required browser test in "testng.xml" file
+	ex., Scripts will be executed in the CHROME browser with test file
+	
+				 <test name="Chrome_Test">
+					  <parameter name="broName" value="chrome"/>
+					  <parameter name="viewport" value="1200*700"/>
+					  <parameter name="executingIn" value="Desktop"/>
+					    <classes>
+					     	<class name="com.hackathon.task.Tasks"/> 
+					    </classes> 
+			  	</test> 
+			  	
+3. Right click on the "testng.xml"
+4. Run as TestNG suite.
+
+
+***************** Test Results *****************
+1. Run the scripts using TestNG 
+2. Results will be stored in "Result > Traditional-V1-TestResults.txt" (for Treditional V1)
+							 "Result > Traditional-V2-TestResults.txt" (for Treditional V2)
